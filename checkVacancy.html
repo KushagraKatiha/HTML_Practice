@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Railway Reservation Vacancy Checker</title>
+</head>
+<body>
+    <h1>Railway Reservation Vacancy Checker</h1>
+    <form action="check_vacancy.php" method="post">
+        <label for="train_number">Train Number:</label>
+        <input type="text" id="train_number" name="train_number" required><br><br>
+        
+        <label for="travel_date">Travel Date:</label>
+        <input type="date" id="travel_date" name="travel_date" required><br><br>
+        
+        <label for="from_station">From Station:</label>
+        <input type="text" id="from_station" name="from_station" required><br><br>
+        
+        <label for="to_station">To Station:</label>
+        <input type="text" id="to_station" name="to_station" required><br><br>
+        
+        <input type="submit" value="Check Vacancy">
+    </form>
+</body>
+</html>
